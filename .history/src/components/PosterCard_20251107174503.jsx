@@ -16,6 +16,7 @@ const PosterCard = ({ poster }) => {
   return (
     <div className="poster-card">
       <div className="poster-card-header" style={{ borderTopColor: categoryInfo.color }}>
+        <span className="poster-icon">📄</span>
         <span className="poster-category" style={{ backgroundColor: categoryInfo.color }}>
           {categoryInfo.icon} {categoryInfo.name}
         </span>
@@ -32,6 +33,7 @@ const PosterCard = ({ poster }) => {
           className="poster-link"
         >
           Ver Póster
+          <span className="arrow">→</span>
         </a>
       </div>
     </div>

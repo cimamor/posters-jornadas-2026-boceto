@@ -32,6 +32,7 @@ const PosterCard = ({ poster }) => {
           className="poster-link"
         >
           Ver Póster
+          <span className="arrow">→</span>
         </a>
       </div>
     </div>
